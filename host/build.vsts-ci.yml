@@ -17,5 +17,6 @@ steps:
     set -e
     branch=$(Build.SourceBranchName)
     CI_RUN=1
+    RUN_TESTS=1
     ./build all
   displayName: build and push images
